@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
+    <style>
+        @media (max-width: 768px) {
+            .center-nav, 
+    .right-nav {
+        position: static;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        /*background-color: #333;*/
+        display: none;
+    }
+        }
+        p{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="GHRadio logo"></a>
+           
+            <ul class="nav-list right-nav">
+                <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                    <img src="facebook.jpeg" alt="facebook" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                    <img src="WhatsApp.jpeg" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                    <img src="x.jpg" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                    <img src="ttk.jpg" height="40px" width="40px">
+                </a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+   <h1>Learn More About GHRadio1</h1>
+
+<p>Welcome to GHRadio1, your premier source for the latest and greatest music from Ghana and around the world.
+Our online radio station is designed to provide listeners with an unparalleled listening experience that is both fun and informative.
+</p>
+<p>
+At GHRadio1, we believe that music is a universal language that connects people from different walks of life.
+Our goal is to use the power of music to bring people together and create a vibrant community of music lovers.
+Whether you're a fan of hip-hop, afrobeats, highlife or any other genre, you'll find something to love on our station.
+</p>
+<p>
+We have a team of experienced DJs and presenters who are passionate about music and dedicated to bringing you the best listening experience.
+Our live shows feature a mix of music, news, interviews, and interactive discussions that keep you engaged and entertained.
+</p>
+<p>
+Our online radio station is available to listen to from anywhere in the world. Simply visit our website or use one of our streaming links to tune in and enjoy our programs.
+You can also follow us on social media to stay up-to-date with the latest news, events, and promotions.
+</p>
+
+<script src="scriptt.js"></script>
+<script>
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navLists = document.querySelectorAll('.nav-list');
+
+    mobileMenu.addEventListener('click', () => {
+        navLists.forEach(navList => navList.classList.toggle('active'));
+    });
+</script>
+</body>
+</html>

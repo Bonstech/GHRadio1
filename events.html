@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="styless.css">
+    <style>
+        body{
+            background-color: #02aa89;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .center-nav, 
+    .right-nav {
+        position: static;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        /*background-color: #333;*/
+        display: none;
+    }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="GHRadio logo"></a>
+           
+            <ul class="nav-list right-nav">
+                <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                    <img src="facebook.jpeg" alt="facebook" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                    <img src="WhatsApp.jpeg" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                    <img src="x.jpg" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                    <img src="ttk.jpg" height="40px" width="40px">
+                </a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <section id="shows">
+        <div class="image">
+            <h2>WHY CHOOSE GHRadio1?</h2><br>
+            <img src="GYE ME TAATAA.jpg" alt="">
+            <img src="WAKE UP GHANA.jpg" alt="">
+            <img src="GIRLS KASA.jpg" alt="">
+            <img src="DONKOMI.jpg" alt="">
+            <img src="HAPPY HOUR.jpg" alt="">
+            <img src="WO NIM NWOM.jpg" alt="">
+            <img src="GHENTERTAINMENT.jpg" alt="">
+            <img src="AHOMA NSIA.jpg" alt="">
+            <img src="TE AHOMA NO.jpg" alt="">
+            <!--<img src="ABRABO.jpg" alt="">
+            <img src="HEAVEN.jpg" alt="">
+            <img src="Abrabɔ Yɛ Ntoboaseɛ.jpg" alt="">-->
+            <img src="BISA NWOM.jpg" alt="">
+            <img src="NS3NKU NWOM.jpg" alt="">
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" height="40px" width="40px">
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" height="40px" width="40px">
+        </a>  
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+    </script>
+
+</body>
+</html>
