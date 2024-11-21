@@ -535,7 +535,7 @@ nav {
     .newlink ul button{
         background-color: #e4ac6c;
         border-style: none;
-        padding: 4px 4px;
+        padding: 2px 2px 2px 2px;
         width: 90px;
         
     }
@@ -545,7 +545,7 @@ nav {
         align-items: center;
         gap: 2px; /* Space between buttons */
         margin: 0 auto;
-        font-size: 12px;
+        font-size: 11px;
        
 }
 
