@@ -1,0 +1,93 @@
+<!-- article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    *{
+        text-align:start;
+    }
+</style>
+</head>
+<header>
+    <nav>
+        <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+        </a>
+        <ul class="nav-list center-nav">
+           <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <!--<li><a href="#">News</a></li>-->
+            <li><a href="schedules.html">Schedules</a></li>
+            
+        </ul>
+        <ul class="nav-list right-nav">
+            <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+
+            </a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <p>
+        Sports journalist Dan Kwaku Yeboah has said that the challenges the Black Stars team is grappling with cannot be blamed solely on the coaches. According to him, since the President of the Ghana Football Association (GFA), Kurt Okraku, assumed office in 2019, there have been the appointments of five different coaches, which affect the team’s consistency. The Peace FM sports journalist cited how former coach Chris Hughton was sacked by the GFA after the 2023 Africa Cup of Nations (AFCON) without taking reports on the team’s performance to guide the next coach. Speaking on Peace FM, Kwaku Yeboah asserted that the current head coach of the Black Stars , Otto Addo , should not be entirely blamed for the team’s disastrous performance in the 2024 AFCON qualifiers. “For me, I believe the problem is not the coaches. After the AFCON in Ivory Coast, the public was demanding the report on the performance from Chris Hughton. The FA refused to heed the call because the government brought the coach, and they sacked him. “In five years, you have worked with five coaches, so the problem is not coaching; it goes beyond that. It’s not only the Black Stars ; the league has collapsed, and other national teams are struggling. The managers are not seeing anything wrong, so it’s better we stop following the team with our hearts,” he said in Twi. The Black Stars , under coach Otto Addo , failed to qualify for the tournament. After six matches, Ghana was left at the bottom of Group F with just three points, recorded three losses and three draws. In Group F, Angola and Sudan qualified, while Ghana and Niger failed to progress to the main competition. It is the first time in 21 years that Ghana has failed to qualify for the Africa Cup of Nations (AFCON). Most football fans blame Otto Addo for Black Stars ' terrible performance | Sports Debate SB/BB
+    </p>
+    
+    <br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+    <br>
+    <a href="sporthead.html">Back to News</a>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!-- article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    *{
+        text-align:start;
+    }
+</style>
+</head>
+<header>
+    <nav>
+        <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+        </a>
+        <ul class="nav-list center-nav">
+           <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <!--<li><a href="#">News</a></li>-->
+            <li><a href="schedules.html">Schedules</a></li>
+            
+        </ul>
+        <ul class="nav-list right-nav">
+            <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+
+            </a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <p>
+        Ghanaian Kumawood actor, Kwaku Manu, has suggested that young men should focus on earning money before considering marriage. He believes that young men aiming to start a family should prioritize building a stable income and working diligently, rather than rushing into marriage without financial security. In a video shared on Instagram on November 20, 2024, the actor pointed out that Ghanaian culture portrays men as providers of the home. However, men must focus on earning sufficient income before committing to marriage. “As a young man, if you intend to have a family in the future, prioritize making money first. If you find yourself jobless or earning a low income and then have a child, you risk losing your dignity. "Your partner may even leave you with the children if you cannot provide adequately for them. Make it a point to pray and work hard. Before contemplating marriage, ensure you have a reliable source of income,” he said. He elaborated that bringing a child into the world without adequate financial resources can have significant consequences, resulting in a loss of respect from people and creating challenges for your children if you are unable to meet their everyday needs. Kwaku Manu urged young men to avoid promiscuous behavior and refrain from dating women who do not appreciate their worth.
+    </p>
+    
+    <br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+    <br>
+    <a href="entertainhead.html">Back to News</a>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

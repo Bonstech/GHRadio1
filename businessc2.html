@@ -1,0 +1,93 @@
+<!-- article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    *{
+        text-align:start;
+    }
+</style>
+</head>
+<header>
+    <nav>
+        <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+        </a>
+        <ul class="nav-list center-nav">
+           <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <!--<li><a href="#">News</a></li>-->
+            <li><a href="schedules.html">Schedules</a></li>
+            
+        </ul>
+        <ul class="nav-list right-nav">
+            <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+
+            </a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <p>
+        The Secretary of the Bank of Ghana, Sandra Thompson, has applauded the management of the Central Bank and the government for the institution of the new Bank of Ghana headquarters named "The Bank Square". According to her, the tireless effort of the team dedicated to the project has resulted in its fruitful completion. She noted that the new building will result in a smooth workflow and provide a conducive atmosphere for the smooth running of the bank. Speaking at the commissioning on November 20, 2024, she said, "We are beginning to feel like we work on Wall Street." The ceremony was graced by the President, the Vice President, the Governor of the Bank of Ghana, and other distinguished guests. The approximately $250 million project prompted heated debates following a report revealing that the central bank had lost GH¢10.5 billion in 2023. The Central Bank argued that the new building was necessary because its current headquarters was no longer fit for purpose.
+    </p>
+    
+    <br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+    <br>
+    <a href="businesshead.html">Back to News</a>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

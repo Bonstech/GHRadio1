@@ -1,0 +1,93 @@
+<!-- article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    *{
+        text-align:start;
+    }
+</style>
+</head>
+<header>
+    <nav>
+        <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+        </a>
+        <ul class="nav-list center-nav">
+           <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <!--<li><a href="#">News</a></li>-->
+            <li><a href="schedules.html">Schedules</a></li>
+            
+        </ul>
+        <ul class="nav-list right-nav">
+            <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+
+            </a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <p>
+        Former Black Stars midfielder Emmanuel Agyemang-Badu has humorously recalled an unforgettable moment after scoring the decisive penalty in Ghana’s historic U20 World Cup win in 2009. The Black Satellites, on the cusp of history, were one penalty kick away from becoming the first African country to win the U20 World Cup. Agyemang-Badu, who had taken on the responsibility, stepped up and converted his penalty, etching Ghana’s name in U20 World Cup history. However, in the midst of the celebrations, he took off his jersey, prompting his teammate to alert him to put it back on, fearing an age-cheating debate would arise. Footballers, for the most part of their careers, are often accused of age cheating, and Agyemang-Badu humorously revealed how that thought crossed his teammate's mind during the celebrations. “I remember after scoring the penalty, I removed my shirt during the celebrations, and Opoku Agyemang, who was right behind me while I was running, shouted at me to put my shirt back on, or else FIFA would take back the trophy,” he recalled. In football, accusations of age fraud are prevalent, especially in African teams, where players are often scrutinized for discrepancies in official documents. Nonetheless, Agyemang-Badu stated that there is no such thing as a "football age," using himself as an example. “I don’t have a football age because I’m using the details on all my documents. If you’ve got any other age, you can bring it out to prove me wrong,” he added. Agyemang-Badu enjoyed a stellar career, playing across Europe and for the Black Stars, where he won two Africa Cup of Nations silver medals and earned 78 caps for the nation. He is currently without a club and occasionally serves as a pundit for sports shows. Most football fans blame Otto Addo for Black Stars' terrible performance | Sports Debate FKA/BB
+    </p>
+    
+    <br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+    <br>
+    <a href="sporthead.html">Back to News</a>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

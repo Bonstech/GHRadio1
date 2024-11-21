@@ -1,0 +1,93 @@
+<!-- article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    *{
+        text-align:start;
+    }
+</style>
+</head>
+<header>
+    <nav>
+        <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+        </a>
+        <ul class="nav-list center-nav">
+           <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <!--<li><a href="#">News</a></li>-->
+            <li><a href="schedules.html">Schedules</a></li>
+            
+        </ul>
+        <ul class="nav-list right-nav">
+            <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+
+            </a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <p>
+        Renowned Gospel musician Piesie Esther has shared her reasons for avoiding negative comments on social media. In an interview on 3FM Drive on November 19, 2024, she explained that most social media trolls are paid to denigrate others. Thus, she prefers to focus on her career rather than respond to them. “I have realised that some of these people who post comments on social media are paid to bring you down. Some comments make you wonder why the person is writing this when you are just doing your work and promoting it. “So, I don’t see the reason to bother myself with such people. I will just let it go and stay focused on what I am doing,” she said. Addressing the trending issue of female gospel musicians being more concerned with fashion than ministry, the ‘Waye Mi Yie’ singer said, “There is nothing wrong with gospel artistes, especially females, dressing to look good. “The reason is that it adds some focus to you. It draws some people closer to you. There is nothing wrong with seeing a gospel musician who has dressed well. “You don’t have to expose your body but look good because the way you dress is how you will be addressed,” she said. The gospel singer is out with a new song, ‘At33ne’, released in October 2024. She said the new song is a testament to God’s faithfulness in her life.
+    </p>
+    
+    <br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+    <br>
+    <a href="entertainhead.html">Back to News</a>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

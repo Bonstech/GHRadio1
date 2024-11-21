@@ -1,0 +1,93 @@
+<!-- article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    *{
+        text-align:start;
+    }
+</style>
+</head>
+<header>
+    <nav>
+        <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+        </a>
+        <ul class="nav-list center-nav">
+           <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <!--<li><a href="#">News</a></li>-->
+            <li><a href="schedules.html">Schedules</a></li>
+            
+        </ul>
+        <ul class="nav-list right-nav">
+            <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+
+            </a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <p>
+The National Communications Authority (NCA), in collaboration with the Ministry of Communications and Digitalisation and Mobile Network Operators (MNOs), is currently engaged in negotiations with relevant stakeholders in The Gambia to advance the implementation of ECOWAS Free Roaming. This initiative aims to reduce the cost of telecommunications services for citizens traveling between Ghana and The Gambia, fostering seamless communication and strengthening economic and social ties. The meeting, which commenced today, November 19, 2024, will conclude on November 21, 2024, with the signing of a Memorandum of Understanding(MOU) to pave the way for MNOs to start technical and regulatory discursions which will eventually lead to the implementation and launching of the ECOWAS Roaming Regulations later in the first half of 2025. This dialogue reflects the NCA's ongoing commitment to consumer protection and regional integration within the telecommunications sector. Over the years, the NCA has spearheaded consumer protection initiatives such as the Billing Feedback Message, Significant Market Power (SMP) Regulations, SIM Registration, and Mobile Number Portability (MNP). Other key measures, including UMTS 900 frequency deployment, Billing Verification Systems, NCA CERT, and technology neutrality, underscore the Authority's commitment to ensuring consumer rights as enshrined in the NCA Act. During his opening remarks, Prof. Ezer Osei Yeboah-Boateng, the Deputy Director General (Technical Operations) of the NCA and leader of the Ghana delegation, emphasised that the meeting represents a major step toward regional integration. He noted Ghana’s leadership in promoting regional connectivity, citing existing bilateral roaming agreements with Côte d’Ivoire, Togo, and Benin. ‘This collaboration with The Gambia marks the next phase in extending affordable telecom services across the region’, he said. Prof. Yeboah-Boateng further highlighted that beyond reducing costs, the partnership symbolises a collective resolve to create a West Africa where communication is inclusive, seamless, and fosters economic growth, tourism, and unity. The Deputy Director General of The Gambia Public Utilities Regulatory Authority (PURA), Mr. Solo Sima, present at the meeting, expressed optimism that the ECOWAS Free Roaming Initiative would contribute significantly to connecting Africa and creating employment and business opportunities. He urged Regulators to consider the impact of emerging technologies such as 5G while ensuring that agreements remain agile and consumer-focused. Ghana’s ECOWAS Free Roaming Agreements with other countries Currently, there is an existing agreement among Ghana, Benin, and Togo under the ECOWAS Free Roaming Regulations. This allows citizens of these countries to enjoy affordable telecom services while traveling across borders. Ghanaians traveling to Côte d’Ivoire, Benin, and Togo now benefit from the following: Affordable Rates: Citizens use local rates in these countries for SMS and voice calls, eliminating exorbitant roaming charges. Free Call Reception: Receiving both local and international calls is free, as roaming fees for call reception have been abolished. Internet at Local Rates: Ghanaians can now access the internet at the same rates as residents in Côte d’Ivoire, Benin, and Togo. The ongoing discussions in Gambia aim to extend these benefits to citizens traveling between Ghana and Gambia, further promoting regional cooperation and enhancing affordability for all.
+    </p>
+    
+    <br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+    <br>
+    <a href="businesshead.html">Back to News</a>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

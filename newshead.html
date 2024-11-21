@@ -1,0 +1,142 @@
+<!-- test.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    .hdl{
+        color: white;
+        background-color: #02aa89;
+    }
+    *{
+        text-align: center;
+
+    }
+    h1{
+        color: #ff8f12;
+    }
+    a{
+        color: #ff8f12;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+            </a>
+            <ul class="nav-list center-nav">
+               <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+                <li><a href="About.html" target="_blank">About Us</a></li>
+                <!--<li><a href="#">News</a></li>-->
+                <li><a href="schedules.html">Schedules</a></li>
+                
+            </ul>
+            <ul class="nav-list right-nav">
+                <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                    <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+    
+                </a></li>
+                <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                    <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+    
+                </a></li>
+                <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                    <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+    
+                </a></li>
+                <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                    <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+    
+                </a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+    <h1>Top Stories</h1>
+    <ul>
+       
+        <li>
+            <h3 class="hdl">NDC has been training thugs in Ashanti Region to disrupt the electoral process - NPP alleges</h3>
+            <a href="newsc1.html">Read More</a>
+            
+            <img src="https://cdn.ghanaweb.com/imagelib/pics/425/42578409.295.jpg" alt="Article Image" style="width:200px;">
+            
+        </li>
+        
+    </ul><br>
+    <ul>
+        
+        <li>
+            <h3 class="hdl">What would happen if Parliament doesn’t sit in the next 10 days?</h3>
+            <a href="newsc2.html">Read More</a>
+            
+            <img src="https://cdn.ghanaweb.com/imagelib/pics/385/38507360.295.jpg" alt="Article Image" style="width:200px;">
+            
+        </li>
+        
+    </ul><br>
+    <ul>
+        
+        <li>
+            <h3 class="hdl">Flower Pot Interchange: Street hawkers cry over low sales as traffic situation dies down</h3>
+            <a href="newsc3.html">Read More</a>
+            
+            <img src="https://cdn.ghanaweb.com/imagelib/pics/939/93962537.295.jpg" alt="Article Image" style="width:200px;">
+            
+        </li>
+        
+    </ul><br>
+    <ul>
+        
+        <li>
+            <h3 class="hdl">Pregnant woman whose ear was allegedly chopped off during interrogation sues police, AG for GH¢15m</h3>
+            <a href="newsc4.html">Read More</a>
+            
+            <img src="https://cdn.ghanaweb.com/imagelib/pics/363/36397659.295.jpg" alt="Article Image" style="width:200px;">
+            
+        </li>
+        
+    </ul><br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

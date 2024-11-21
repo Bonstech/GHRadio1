@@ -1,0 +1,93 @@
+<!-- article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    *{
+        text-align:start;
+    }
+</style>
+</head>
+<header>
+    <nav>
+        <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+        </a>
+        <ul class="nav-list center-nav">
+           <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <!--<li><a href="#">News</a></li>-->
+            <li><a href="schedules.html">Schedules</a></li>
+            
+        </ul>
+        <ul class="nav-list right-nav">
+            <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+
+            </a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <p>
+The New Patriotic Party (NPP) has accused the National Democratic Congress (NDC) of orchestrating plans to disrupt the electoral process in the Ashanti Region, ahead of the 2024 election. Addressing a press conference in Accra, on Wednesday, November 20, 2024, the National Organiser of the NPP, Henry Nana Boakye, claimed the NDC has been training some thugs in various communities under the pretext of private security initiatives. He alleged that these individuals are being prepared to undermine the electoral process in what he described as an attempt to destabilise the NPP's stronghold. "Information available to the NPP reveals that several months ago, the NDC has been training thugs in communities, including the Obuasi East constituency, to disturb the electoral process, particularly in the Ashanti Region," he stated. He warned that any such actions by the opposition party would face fierce resistance from the NPP. Additionally, he accused the NDC of enlisting the support of illegal miners to incite confusion during the elections. “We are aware that recently on November 11, 2024, the NDC committee on mining led by one Toney Aubynn, the former Chief Executive Officer of the Minerals Commission, held a secret meeting with some NDC small-scale miners at the Conference Hall of Mawuli Hotel in the Obuasi West Municipality. “One of the aims of the meeting was to recruit some members of the pro-NDC small-scale miners to form part of the NDC’s Eagle Force Vigilante Group which will be deployed to some NPP polling stations to cause mayhem on election day,” he indicated. The NPP also denied allegations by the NDC that the party is conniving with the General officer commanding the Central Command of the Ghana Armed Forces, Brigadier General Michael Opoku, to rig the polls in the Ashanti Region. “The allegations made by the Communication and the NDC are baseless. It is devoid of any iota of credible evidence and represents yet another desperate attempt by the NDC to raise tension and distract the people of Ghana from their own misdeeds. “You [say] this against a reputable army officer, with baseless allegations, you do not provide any evidence and yet you want us to take you seriously,” he stated. At a press conference, on November 19, 2024, the National Communications Officer of the NDC, Sammy Gyamfi , accused Brigadier-General Michael Opoku of masterminding a plot to rig the December 7 polls in favour of the NPP. 
+    </p>
+    
+    <br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+    <br>
+    <a href="newshead.html">Back to News</a>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

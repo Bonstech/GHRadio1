@@ -1,0 +1,142 @@
+<!-- test.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    .hdl{
+        color: white;
+        background-color: #02aa89;
+    }
+    *{
+        text-align: center;
+
+    }
+    h1{
+        color: #ff8f12;
+    }
+    a{
+        color: #ff8f12;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+            </a>
+            <ul class="nav-list center-nav">
+               <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+                <li><a href="About.html" target="_blank">About Us</a></li>
+                <!--<li><a href="#">News</a></li>-->
+                <li><a href="schedules.html">Schedules</a></li>
+                
+            </ul>
+            <ul class="nav-list right-nav">
+                <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                    <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+    
+                </a></li>
+                <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                    <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+    
+                </a></li>
+                <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                    <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+    
+                </a></li>
+                <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                    <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+    
+                </a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+    <h1>Business News</h1>
+    <ul>
+       
+        <li>
+            <h3 class="hdl">'The Bank Square': Akufo-Addo commissions Ghana's tallest building</h3>
+            <a href="businessc1.html">Read More</a>
+            
+            <img src="https://cdn.ghanaweb.com/imagelib/pics/923/92394018.295.jpg" alt="Article Image" style="width:200px;">
+            
+        </li>
+        
+    </ul><br>
+    <ul>
+        
+        <li>
+            <h3 class="hdl">We are beginning to feel like people who work on Wall Street - BoG Secretary at commissioning of 'The Bank Square'</h3>
+            <a href="businessc2.html">Read More</a>
+            
+            <img src="https://cdn.ghanaweb.com/imagelib/pics/724/72405909.295.jpg" alt="Article Image" style="width:200px;">
+            
+        </li>
+        
+    </ul><br>
+    <ul>
+        
+        <li>
+            <h3 class="hdl">Herbert Krapa appointed as Minister of Energy</h3>
+            <a href="businessc3.html">Read More</a>
+            
+            <img src="https://cdn.ghanaweb.com/imagelib/pics/593/59389740.295.jpg" alt="Article Image" style="width:200px;">
+            
+        </li>
+        
+    </ul><br>
+    <ul>
+        
+        <li>
+            <h3 class="hdl">Ghana collaborates to expand ECOWAS free roaming to The Gambia</h3>
+            <a href="businessc4.html">Read More</a>
+            
+            <img src="https://cdn.ghanaweb.com/imagelib/pics/831/83118271.295.jpg" alt="Article Image" style="width:200px;">
+            
+        </li>
+        
+    </ul><br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

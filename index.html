@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHRadio1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="styless.css">
+    <style>
+        nav ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    
+}
+nav ul li {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    padding: 1px;
+    
+}
+nav li{
+    margin-right: 0;
+    gap: 2px;
+    display: flex;
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+}
+nav ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    
+ 
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+}
+nav h2{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="#home" class="logo"><img src="GHRadiologo.jpg" alt="GHRadio logo"></a>
+            <ul class="nav-list center-nav">
+               <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+                <li><a href="About.html" target="_blank">About Us</a></li>
+                <!--<li><a href="#">News</a></li>-->
+                <li><a href="schedules.html" target="_blank">Schedules</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+            <ul class="nav-list right-nav">
+                <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                    <img src="facebook.jpeg" alt="facebook" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                    <img src="WhatsApp.jpeg" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                    <img src="x.jpg" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                    <img src="ttk.jpg" height="40px" width="40px">
+                </a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="what">Contact GHRadio1 via whatsapp:</h2>
+            <p>
+                <a href="https://wa.link/glx7r5" target="_blank"> (GH) +233 206 103 448</a>
+            <a href="https://wa.link/rf79pp" target="_blank"> (GH) +233 556 901 644</a>
+            <a href="https://wa.link/v2kbl9" target="_blank"> (UK) +44 775 437 2561</a>
+        </p>
+        <section id="home">
+            <h1 id="tt"><B>GHRadio1</B></h1>
+            <i><p style="color: rgb(13, 13, 13);">Real Music Power!!</p></i><br>
+            <div class="player-controls">
+                <i class="fa-solid fa-arrow-rotate-left" id="skip-backward"></i>
+            
+            <button id="show-player">Listen Now</button>
+            <i class="fa-solid fa-arrow-rotate-right" id="skip-forward"></i>
+            <div class="share-button-container">
+                <button id="share-button">
+                    <i class="fas fa-share-alt share-icon"></i>
+                    <!--<span class="share-text">Share</span>-->
+                </button>
+            </div>
+            </div>
+        
+            <div id="media-player" style="display: none;">
+                <audio id="radio-player">
+                    <source src="https://stream.zeno.fm/dzgdmrn0c5zuv" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="schedule" id="current-schedule">  
+                </div>
+            </div>
+            
+        </section>
+<h2 style="color: #ff8f12;">GHRadio1 News</h2>
+        <nav class="newlink">
+            <ul>
+                <li><button><a href="newshead.html" target="_blank">News</a></button></li>
+                <li><button><a href="sporthead.html" target="_blank">Sports</a></button></li>
+                <li><button><a href="entertainhead.html" target="_blank">Entertainment</a></button></li>
+                <li><button><a href="businesshead.html" target="_blank">Business</a></button></li>
+               
+            </ul>
+        </nav><br>
+        
+        <a href="events.html" target="_blank"><button>More About Our Shows</button></a><br>
+
+        <br><section id="contact">
+            <h2>Contact Us</h2>
+            <nav>
+                
+                <li>
+            <a href="https://wa.link/glx7r5" target="_blank"><p> (GH) +233 206 103 448</p></a>
+        </li>
+            <a href="https://wa.link/rf79pp" target="_blank"><p> (GH) +233 556 901 644</p></a>
+        </li>
+        <li>
+            <a href="https://wa.link/v2kbl9" target="_blank"><p> (UK) +44 775 437 2561</p></a>
+        </li>
+        <li>
+            <a href="https://forms.gle/exzQ7WGzhFeRmVhWA" target="_blank"><p> Message GHRadio1 Vial Email</p></a>
+        </li>
+        </nav>
+        </section>
+        <a href="https://www.paypal.me/ghradio1" target="_blank"><button id="donate">Donate with Paypal</button></a>
+    </main>
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "eZ08V6-ib_SNdqfDhorhG",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="eZ08V6-ib_SNdqfDhorhG"
+        domain="www.chatbase.co"
+        defer>
+        </script>
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" height="40px" width="40px" alt="WhatsApp">
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" height="40px" width="40px" alt="X">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" height="40px" width="40px" alt="tiktok">
+        </a>  
+
+        </div>
+    </footer>
+
+    <script src="scriptt.js"></script>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+    
+</body>
+</html>

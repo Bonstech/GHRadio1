@@ -1,0 +1,93 @@
+<!-- article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    *{
+        text-align:start;
+    }
+</style>
+</head>
+<header>
+    <nav>
+        <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+        </a>
+        <ul class="nav-list center-nav">
+           <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <!--<li><a href="#">News</a></li>-->
+            <li><a href="schedules.html">Schedules</a></li>
+            
+        </ul>
+        <ul class="nav-list right-nav">
+            <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+
+            </a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <p>
+        President Nana Addo Dankwa Akufo-Addo has unveiled the new state-of-the-art headquarters of the Bank of Ghana (BoG) in Accra, named 'The Bank Square'. Standing at 100 meters, the central bank’s new edifice is not only the tallest building in Ghana but also the most sustainable EDGE Advanced structure of its size in the country and the sub-region. Speaking at the event to commission the building on Wednesday, November 20, 2024, President Akufo-Addo said the edifice represents a significant declaration of intent to strengthen the country's governance institutions, especially financial infrastructure. He also pointed out that it symbolises a modern and forward-thinking approach that is more than just a physical structure but encompasses the BoG's commitment to enhancing its capacity to manage the national economy effectively, promoting financial stability, and ensuring transparency in its operations. “This new headquarters will serve as the new command center for the bank’s operations, fostering innovation, collaboration, and excellence in its service to the nation. “It will also reinforce the bank’s capacity to advance critical financial sector reforms, enhance regulatory frameworks, and improve the investment climate for both domestic and international stakeholders,” President Akufo-Addo stated. He lauded the Bank of Ghana for its commitment to innovation and efficiency in its operations while enhancing the government’s broader agenda to promote economic stability and create an enabling environment for growth in the financial sector. Bank of Ghana Governor, Dr. Ernest Addison in his remarks said the project, designed by internationally celebrated architect Sir David Adjaye, boldly affirms the central bank’s commitment to investing in the nation’s future. He mentioned that 'The Bank Square' has been designed to withstand the test of time and serve as a beacon of Ghana’s economic revitalisation for generations to come.
+    </p>
+    
+    <br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+    <br>
+    <a href="businesshead.html">Back to News</a>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

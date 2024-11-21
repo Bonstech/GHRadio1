@@ -1,0 +1,93 @@
+<!-- article.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News</title>
+    <link rel="stylesheet" href="styless.css">
+<style>
+    *{
+        text-align:start;
+    }
+</style>
+</head>
+<header>
+    <nav>
+        <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="Logo" height="40px" width="40px">
+        </a>
+        <ul class="nav-list center-nav">
+           <!-- <li><a href="About.html" target="_blank">Admin</a></li>-->
+            <li><a href="About.html" target="_blank">About Us</a></li>
+            <!--<li><a href="#">News</a></li>-->
+            <li><a href="schedules.html">Schedules</a></li>
+            
+        </ul>
+        <ul class="nav-list right-nav">
+            <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+
+            </a></li>
+            <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+
+            </a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <p>
+Street hawkers selling food along the areas surrounding the Flower Pot flyover have expressed their frustration over the negative impact the road construction has had on their businesses. The Flower Pot interchange was built to link the northern and southern parts of the Accra-Tema Motorway, offering significant benefits to commuters in areas like Cantonments, Burma Camp, East Legon, Spintex, and Tema, while helping to reduce traffic congestion. Despite the relief the interchange has brought to commuters, the construction has led to a decline in the patronage of goods of hawkers on the stretch. Speaking exclusively to GhanaWeb , the street hawkers noted that their sales have now significantly dropped due to the smooth flow of traffic. “Right now there is no traffic but we the hawkers along the stretch have been negatively impacted in terms of our business. We have no place to sell our items and there is no traffic for people to patronise us. Business is slow now because initially I used to sell 3 to 4 packs of water by noon in the traffic but now even with a pack, I struggle to sell all,” she lamented. Another hawker also expressed frustration over how cars rarely stop to purchase from them these days, a situation that has led to significantly lower sales in the days following the road's commissioning. “Initially, sales were booming due to the traffic, but now that the congestion has been eased, my sales have been badly affected. Cars hardly stop to buy from us anymore. We can be here all day, but they won’t purchase anything. Even the workers who used to buy from us are now struggling to find food, as we don’t have a permanent market structure to sell from,” she explained. They have therefore called on the government to establish a market structure where they can conduct business. Meanwhile, commuters and motorists have expressed how pleased they are with the current situation noting that they can now swiftly drive to their destinations without stress. “The traffic situation is much better now though there’s little of the traffic persisting. I always use other roads to divert from the traffic because that is what we trotro drivers do,” one of the drivers said. Some passengers shared similar sentiments, stating that the interchange has eased their stress when boarding cars to their workplaces. “This is where I board my car and for the past two days, I’ve noticed a reduction of traffic along this stretch. Normally, the traffic would have started around 12pm. I’m surprised there’s no traffic and it’s because of the interchange,” he also said. 
+    </p>
+    
+    <br>
+    <p class="source-credit">
+        Source: <a href="" target="_blank" rel="noopener noreferrer">GhanaWeb</a>
+    </p>
+    <br>
+    <a href="newshead.html">Back to News</a>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/GhRadio1" target="_blank">
+                <img src="facebook.jpeg" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                <img src="WhatsApp.jpeg" alt="WhatsApp" height="40px" width="40px">
+
+            </a>  
+        <a href="https://x.com/GHRadio_1?s=08" target="_blank">
+            <img src="x.jpg" alt="Twitter" height="40px" width="40px">
+        </a> 
+        <a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+            <img src="ttk.jpg" alt="Tiktok" height="40px" width="40px">
+        </a>  
+
+        </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLists = document.querySelectorAll('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navLists.forEach(navList => navList.classList.toggle('active'));
+        });
+       
+    </script>
+</body>
+</html>

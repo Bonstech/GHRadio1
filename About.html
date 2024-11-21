@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
+    <style>
+        @media (max-width: 768px) {
+            .center-nav, 
+    .right-nav {
+        position: static;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        /*background-color: #333;*/
+        display: none;
+    }
+        }
+        p{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="GHRadiologo.jpg" alt="GHRadio logo"></a>
+           
+            <ul class="nav-list right-nav">
+                <li><a href="https://www.facebook.com/GhRadio1" target="_blank">
+                    <img src="facebook.jpeg" alt="facebook" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://whatsapp.com/channel/0029VaRPb7u9hXFAJKOxnd2C" target="_blank">
+                    <img src="WhatsApp.jpeg" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://x.com/GHRadio_1?s=08" target="_blank">
+                    <img src="x.jpg" height="40px" width="40px">
+                </a></li>
+                <li><a href="https://www.tiktok.com/@ghradio1?_t=8ot0NE6bvjU&_r=1" target="_blank">
+                    <img src="ttk.jpg" height="40px" width="40px">
+                </a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+   <h1>Learn More About GHRadio1</h1>
+<p style="text-align:justify;">
+    <b>
+    Welcome to GHRadio1, your premier online radio station broadcasting from Kumasi, Ghana. Our mission is to educate, entertain, and globally promote Ghanaian culture through the power of authentic Ghanaian music. With a focus on highlife, Afrobeat, and contemporary sounds, we connect the world to the rich musical heritage of Ghana. Our engaging programs are designed to resonate with both local listeners and the Ghanaian diaspora.
+
+At GHRadio1, we are committed to offering a diverse range of shows that celebrate Ghana’s vibrant culture, while also serving as a platform for discussions on entertainment and social issues. Join us as we project the real music power of Ghana to the world.
+
+Stay connected with us through our website and social media for the latest updates and live streaming.
+</b>
+</p>
+<script src="scriptt.js"></script>
+<script>
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navLists = document.querySelectorAll('.nav-list');
+
+    mobileMenu.addEventListener('click', () => {
+        navLists.forEach(navList => navList.classList.toggle('active'));
+    });
+</script>
+</body>
+</html>

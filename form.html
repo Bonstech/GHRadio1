@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+    <body>
+        <!-- Admin Login Form -->
+        <div id="admin-login-container">
+            <form id="admin-login-form">
+                <h2>Admin Login</h2>
+                <a id="content">news</a>
+                <label for="admin-username">Username:</label>
+                <input type="text" id="admin-username" required>
+                <label for="admin-password">Password:</label>
+                <input type="password" id="admin-password" required>
+                <button type="submit">Login</button>
+                <p id="login-error-message"></p>
+            </form>
+        </div>
+        <!-- Schedule Management Form -->
+        <div id="schedule-management-container" style="display: none;">
+            <h2>Manage Schedules</h2>
+            <label for="day-select">Select Day:</label>
+            <select id="day-select">
+                <option value="0">Sunday</option>
+                <option value="1">Monday</option>
+                <option value="2">Tuesday</option>
+                <option value="3">Wednesday</option>
+                <option value="4">Thursday</option>
+                <option value="5">Friday</option>
+                <option value="6">Saturday</option>
+            </select>
+    
+            <div id="schedule-list">
+                <!-- Dynamic Schedule Inputs Will Appear Here -->
+            </div>
+    
+            <button id="add-schedule-btn">Add New Schedule</button>
+            <button id="save-schedules-btn">Save Changes</button>
+        </div>
+
+        <iframe src="https://www.ghanaweb.com/GhanaHomePage/NewsArchive/" width="100%" height="600"></iframe>
+
+        <!-- Include your existing HTML here -->
+    
+        <script src="secr.js">
+
+        </script>
+    </body>
+</html>

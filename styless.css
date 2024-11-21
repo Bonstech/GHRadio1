@@ -1,0 +1,585 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+a button{
+    height: 30px;
+    background-color: white;
+    border-style: solid;
+    border-color: #ff8f12;
+    color: #ff8f12;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#share-button {
+    background-color: #02aa89;
+    color: white;
+    border: 2px solid #02aa89;
+    padding: 5px 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    margin-top: 5px;}
+
+nav ul li a{
+    margin-right: 80px;
+    
+}
+.newlink ul li a{
+    
+    text-align: center;
+    display: inline;
+    align-items: center;
+    margin-left: auto;
+    color: #f1eeee;
+
+    
+}
+.newlink ul li:hover{
+    background-color: #02aa89;
+}
+.newlink ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; /* Space between buttons */
+    margin: 0 auto;
+    padding: 10px
+}
+.newlink ul button{
+    background-color:#ff8f12;
+    border-style: none;
+    padding: 5px 5px;
+    width: 120px;
+    
+}
+
+
+.hd{
+background-color: red;
+color: white;
+}
+.sun{
+    background-color: #ff8f12;
+    color: white;
+}
+.mon{
+background-color: rgb(127, 117, 117);
+color: white;
+}
+.tue{
+background-color: #725252;
+color: white;
+}
+.wed{
+background-color: #02aa89;
+color: white;
+}
+.thu{
+background-color: rgb(212, 212, 84);
+color: black;
+}
+.fri{
+background-color: pink;
+color: black;
+}
+.sat{
+background-color: purple;
+color: white;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #02aa89;
+}
+
+#skip-backward {
+    width: 30px;
+    height: 30px;
+    background-color: transparent; /* Makes the inside transparent */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 10px;
+    margin-top: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#skip-forward {
+    width: 30px;
+    height: 30px;
+    background-color: transparent; /* Makes the inside transparent */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.right-nav img{
+    display: inline;
+    align-items: center;
+    margin-left: auto;
+    border-radius:40px;
+    padding: 2px 2px;
+}
+#tt{
+    color: rgb(246, 248, 249);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #090909;
+    background-color: white;
+   
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+header .logo img {
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.social-icons a img{
+    border-radius: 50px;
+    height: 30x;
+   
+}
+.social-icons{
+    text-align: center;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.tbl {
+    
+    text-align: center;
+    width: 100%;
+    border: 1px;
+    border-collapse: collapse;
+   border-style:hidden;
+    
+}
+
+td {
+    padding: 3px;
+}
+
+.image img {
+    width: 320px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: rgb(10, 9, 9);
+}
+
+/* Home Section */
+#home h1 {
+    font-size: 2em;
+    margin-top: 30px;
+    color: #ff8f12;
+}
+#contact{
+    font-size: 12px;
+    color:#0e1010;
+}
+
+#show-player {
+    padding: 5px 10px;
+    background-color: white;
+    color: #02aa89;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px #02aa89;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#donate{
+    
+    background-color: #02aa89;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px black;
+}
+
+#schedules {
+    background-color: white;
+    color: #050504;
+}
+
+#media-player {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* Footer Styles */
+footer {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
+    width: 100%;
+    background-image: url('watermark.jpg');
+    filter: brightness(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(30%); /* Adjust brightness */
+    z-index: -1; /* Keeps background behind text */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles 
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}*/
+/* Default styling for larger screens */
+header {
+    display: flex;
+    justify-content: space-between;
+   
+    top: 0;
+    position: sticky;
+    width: 100%;
+    color: white;
+    background-image: url('watermark.jpg');
+    filter: brightness(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(30%); /* Adjust brightness */
+    z-index: -1; /* Keeps background behind text */
+}
+
+/* Styling for smaller screens */
+/* Default styling for larger screens */
+/*header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}*/
+
+/* Styling for smaller screens */
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+.newlink ul li a{
+    margin: 2px;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.schedule{
+    color: #02aa89;
+}
+
+/*#current-schedule-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    background-color: #f8f9fa;
+}
+
+.schedule{
+    position: relative;
+    /*white-space: pre-wrap;
+    font-size: 18px;
+    line-height: 50px;
+    animation: slideIn 30s linear infinite;
+    overflow: hidden;
+    width: 100%;
+}*/
+
+/*@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}*/
+
+/* Media query for larger screens */
+@media (min-width: 1024px) {
+    #current-schedule-container {
+        height: 5px;
+    }
+
+    .schedule{
+        font-size: 13px;
+        line-height: 10px;
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .schedule{
+        font-size: 4vw;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 7px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: #555;
+    cursor: pointer;
+}
+
+/* Center and Right Nav Styling */
+.center-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-nav {
+    margin-left: 10px;
+    list-style: none;
+    display: flex;
+    padding: 0 10px;
+}
+/* Hamburger Menu Styles */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        position: relative;
+    }
+
+    .center-nav, 
+    .right-nav {
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /*background-color: #333;*/
+        display: none;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .center-nav li,
+    .right-nav li {
+        margin: 10px 0;
+    }
+
+    .logo {
+        margin-right: auto;
+    }
+    .newlink ul button{
+        background-color: #e4ac6c;
+        border-style: none;
+        padding: 4px 4px;
+        width: 90px;
+        
+    }
+    .newlink ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px; /* Space between buttons */
+        margin: 0 auto;
+        font-size: 12px;
+       
+}
+
+/*share*/
+
+.share-button-container {
+    text-align: center;
+}
+
+#share-button {
+    background-color: #02aa89;
+    color: white;
+    border: 2px solid #02aa89;
+    padding: 5px 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.share-icon {
+    margin-right: 1px;
+}
+p a{
+font-size: 10px;
+margin-left: 6px;
+color: #02aa89;
+}
+.what{
+    font-size: 10px;
+    color: #02aa89;
+}
+}
