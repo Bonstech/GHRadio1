@@ -608,6 +608,7 @@ button {
     border-radius: 50%;
     padding: 13px 18px;
     margin-top: 2px;
+    border-color: black;
 }
 
 .hidden {
