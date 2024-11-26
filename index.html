@@ -192,6 +192,41 @@ nav h2{
         });
        
     </script>
+    <script>
+        document.getElementById("showButton").addEventListener("click", function (event) {
+    const nameDisplay = document.getElementById("nameDisplay");
+    const showButton = document.getElementById("showButton");
+
+    // Show the name and Pay button, hide the Click Me button
+    nameDisplay.classList.remove("hidden");
+    showButton.classList.add("hidden");
+
+    // Stop propagation to prevent the document click listener from immediately hiding the element
+    event.stopPropagation();
+});
+
+// Add event listener for the "Pay" button
+document.getElementById("payButton").addEventListener("click", function (event) {
+    // Replace 'your-app-link' with the deep link or URL of your phone app
+    window.location.href = "tel:+233558015581";
+
+    // Stop propagation to prevent the document click listener from immediately hiding the element
+    event.stopPropagation();
+});
+
+// Add event listener for clicks outside the buttons
+document.addEventListener("click", function (event) {
+    const nameDisplay = document.getElementById("nameDisplay");
+    const showButton = document.getElementById("showButton");
+
+    // Check if the click is outside the `nameDisplay` or the `showButton`
+    if (!nameDisplay.contains(event.target)) {
+        // Hide the name and Pay button, show the Click Me button
+        nameDisplay.classList.add("hidden");
+        showButton.classList.remove("hidden");
+    }
+});
+    </script>
     
 </body>
 </html>
