@@ -604,15 +604,10 @@ button {
 
 #payButton {
     background-color: yellow;
-    color: #f1eeee;
+    color: black;
     border-radius: 50%;
     padding: 13px 18px;
     margin-top: 2px;
-}
-
-button:hover {
-    background-color: #0056b3;
-    color: white;
 }
 
 .hidden {
@@ -627,11 +622,6 @@ button:hover {
     body {
         flex-direction: column; /* Stack elements vertically */
         padding: 10px; /* Add padding for smaller screens */
-    }
-
-    button {
-        width: 50%; /* Make buttons full width for easier clicking */
-        max-width: 100px; /* Optional: Limit max width of buttons */
     }
 
     #name {
