@@ -593,9 +593,10 @@ button {
     padding: 8px 18px;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-bottom: 8px;
 }
 
 #showButton {
