@@ -630,8 +630,8 @@ button:hover {
     }
 
     button {
-        width: 100%; /* Make buttons full width for easier clicking */
-        max-width: 300px; /* Optional: Limit max width of buttons */
+        width: 50%; /* Make buttons full width for easier clicking */
+        max-width: 100px; /* Optional: Limit max width of buttons */
     }
 
     #name {
