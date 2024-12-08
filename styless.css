@@ -13,6 +13,37 @@ a button{
     border-radius: 30px;
     cursor: pointer;
 }
+/*News headlines overlay styles*/
+.image-container {
+    position: relative;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px;
+    margin: auto;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Adjust vertical position */
+    left: 50%; /* Adjust horizontal position */
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
 #share-button {
     background-color: #02aa89;
     color: white;
