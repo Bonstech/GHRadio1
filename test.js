@@ -3,7 +3,8 @@ function shareHeadline(headline, image) {
       navigator.share({
           title: headline,
           text: headline,
-          url: window.location.github.io/GHRadio1/businesshead.html, // You can replace this with the specific URL of the news article
+          window.location.href = "https://ghradio1.com/businessc1.html";
+ 
       })
       .then(() => console.log('Successfully shared'))
       .catch((error) => console.error('Something went wrong sharing:', error));
